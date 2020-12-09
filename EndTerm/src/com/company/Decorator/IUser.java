@@ -1,0 +1,1 @@
+package com.company.Decorator;public interface IUser {    public  String makeJob();}

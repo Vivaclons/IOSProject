@@ -1,0 +1,1 @@
+package com.company.State;import com.company.User;public class Invoiced implements Activity {    @Override    public void sendProduct(User user) {        System.out.println();        System.out.println("-- Status: invoiced");        System.out.println("Your total sum is: ");        System.out.println(user.allPrice());    }}

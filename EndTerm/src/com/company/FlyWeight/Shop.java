@@ -1,0 +1,1 @@
+package com.company.FlyWeight;public interface Shop {   public  void printShop();}

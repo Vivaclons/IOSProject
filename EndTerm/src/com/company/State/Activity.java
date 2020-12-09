@@ -1,0 +1,1 @@
+package com.company.State;import com.company.User;public interface Activity {    public void sendProduct(User user);}
