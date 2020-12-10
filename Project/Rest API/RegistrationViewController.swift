@@ -24,6 +24,14 @@ class RegistrationViewController: UIViewController {
     @IBOutlet weak var cvv: UITextField!
     
     
+    @IBAction func signUpButton(_ sender: Any) {
+        print(phoneNumber.text)
+        print(passWord.text)
+        print(cardNumber.text)
+        print(cvv.text)
+    }
+    
+    
    }
 
  
